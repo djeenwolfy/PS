@@ -1,0 +1,27 @@
+body 
+	margin: 0
+@mixin numb ($w,$h)
+	.#{numb}
+		width: $w 
+		height: $h	
+
+@include numb (1920px,512px)
+
+@mixin golos ($w,$h)
+	.#{golos}
+		width: $w 
+		height: $h	
+		
+		float: left
+
+@include golos (960px,512px)
+@mixin bgc ($cwet)
+	background-color: $cwet
+.tleft
+	@include  bgc (#222222)
+.tright
+	background-image: url(../img/tright.jpg)
+.bright
+	background-image: url(../img/bright.jpg)
+.bleft
+	@include  bgc (#F3F3F3)

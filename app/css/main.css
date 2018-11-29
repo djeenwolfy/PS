@@ -1,0 +1,23 @@
+body {
+  margin: 0; }
+
+.numb {
+  width: 1920px;
+  height: 512px; }
+
+.golos {
+  width: 960px;
+  height: 512px;
+  float: left; }
+
+.tleft {
+  background-color: #222222; }
+
+.tright {
+  background-image: url(../img/tright.jpg); }
+
+.bright {
+  background-image: url(../img/bright.jpg); }
+
+.bleft {
+  background-color: #F3F3F3; }
